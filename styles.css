@@ -66,6 +66,8 @@ nav {
   margin-right: 12px;
 }
 .navbar-shopping-cart {
+
+  cursor: pointer;
   position: relative;
 }
 .navbar-shopping-cart div {
@@ -241,6 +243,7 @@ aside {
 
 /* ProductDetail */
 .product-detail-close {
+  display: none;
   background: var(--white);
   width: 14px;
   height: 14px;
